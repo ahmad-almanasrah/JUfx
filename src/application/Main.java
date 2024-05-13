@@ -43,7 +43,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) {
         primaryStage.setTitle("Main Screen");
 
-        // Creating UI components
+        // Creating UI components using Java FX
         RadioButton pGButton = new RadioButton("Polygon");
         RadioButton pLButton = new RadioButton("Polyline");
         ToggleGroup toggle = new ToggleGroup();
